@@ -1,0 +1,96 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491161737330@s.whatsapp.net',
+    fromMe: false,
+    id: '3A1FB4C0C58F85F39AE4',
+    participant: undefined
+  },
+  messageTimestamp: 1722535606,
+  pushName: 'Luciana',
+  broadcast: false,
+  message: Message {
+    stickerMessage: StickerMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.15575-24/32821574_841261324290986_2818359888698010141_n.enc?ccb=11-4&oh=01_Q5AaIIG8dwYvxDV1rtHORm_YH_f-0jYJ2kwRbRTQBf5AKOPl&oe=66D34449&_nc_sid=5e03e0&mms3=true',
+      fileSha256: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      mediaKey: [Uint8Array],
+      mimetype: 'image/webp',
+      directPath: '/v/t62.15575-24/32821574_841261324290986_2818359888698010141_n.enc?ccb=11-4&oh=01_Q5AaIIG8dwYvxDV1rtHORm_YH_f-0jYJ2kwRbRTQBf5AKOPl&oe=66D34449&_nc_sid=5e03e0',
+      fileLength: [Long],
+      mediaKeyTimestamp: [Long],
+      isAnimated: false,
+      stickerSentTs: [Long],
+      isAvatar: false
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__c1b71964-279e-4eb4-9df1-99e5bc61fc1b',
+  from: '5491161737330'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491161737330@s.whatsapp.net',
+    fromMe: false,
+    id: '3A851D47B85A390A220E',
+    participant: undefined
+  },
+  messageTimestamp: 1722535631,
+  pushName: 'Luciana',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5491161737330'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_038b4645-93fc-4625-b55c-90109f7ba223',
+  keyword: 'key_1b369f4c-ad57-428c-989a-14c6b4bf2182',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a2cc31e3f49ad4d7f0609feb8c3a919c'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_804f3d92-c789-4969-9994-4b1daaaf9a9e',
+  keyword: 'ans_038b4645-93fc-4625-b55c-90109f7ba223',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dd1da511bdbc1e8e920df4bea6c49593'
+}
